@@ -17,8 +17,17 @@
     <text x="830" y="46" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" text-anchor="end">INDIA · 2026</text>
     <text x="1025" y="46" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" text-anchor="middle" letter-spacing="2">SYSTEMS IN MOTION</text>
 
-    <text x="106" y="222" fill="#111111" font-family="Arial Black, Inter, ui-sans-serif, system-ui, sans-serif" font-size="122" font-weight="900" letter-spacing="-8">SHI</text>
-    <text x="456" y="222" fill="#315CFF" font-family="Arial Black, Inter, ui-sans-serif, system-ui, sans-serif" font-size="122" font-weight="900" letter-spacing="-8">VESH</text>
+    <text 
+  x="106" 
+  y="222" 
+  font-family="Arial Black, Inter, ui-sans-serif, system-ui, sans-serif" 
+  font-size="122" 
+  font-weight="900" 
+  letter-spacing="-8"
+>
+  <tspan fill="#111111">SHI</tspan><tspan fill="#315CFF">VESH</tspan>
+</text>
+
     <rect x="108" y="246" width="574" height="7" fill="#111111"/>
     <rect x="108" y="246" width="112" height="7" fill="#FF5A1F"><animate attributeName="x" values="108;570;108" dur="5s" repeatCount="indefinite"/></rect>
     <text x="108" y="292" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="2">DATA ENGINEERING  /  MERN  /  PYTHON</text>
