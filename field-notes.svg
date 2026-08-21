@@ -1,0 +1,56 @@
+<svg width="1200" height="650" viewBox="0 0 1200 650" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Shivesh's field notes</title><desc id="desc">Editorial panels showing Shivesh's focus, learning path and technology stack.</desc>
+  <defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#111111" fill-opacity=".07"/></pattern><clipPath id="clip"><rect x="1" y="1" width="1198" height="648" rx="26"/></clipPath></defs>
+  <rect x="1" y="1" width="1198" height="648" rx="26" fill="#F5F0E6" stroke="#111111" stroke-width="2"/>
+  <g clip-path="url(#clip)"><rect width="1200" height="650" fill="url(#dots)"/>
+    <rect x="0" y="0" width="1200" height="86" fill="#111111"/>
+    <text x="48" y="52" fill="#F5F0E6" font-family="Arial Black, Inter, ui-sans-serif, system-ui, sans-serif" font-size="27" font-weight="900">THE WORKING THEORY</text>
+    <text x="1152" y="52" fill="#C7FF2E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" text-anchor="end" letter-spacing="2">02 / FIELD NOTES</text>
+
+    <g transform="translate(48 122)">
+      <rect width="694" height="208" fill="#FF5A1F" stroke="#111111" stroke-width="2"/>
+      <text x="28" y="40" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">WORKING HYPOTHESIS № 01</text>
+      <text x="28" y="93" fill="#111111" font-family="Arial Black, Inter, ui-sans-serif, system-ui, sans-serif" font-size="34" font-weight="900">GOOD DATA SYSTEMS</text>
+      <text x="28" y="132" fill="#F5F0E6" font-family="Arial Black, Inter, ui-sans-serif, system-ui, sans-serif" font-size="34" font-weight="900">MAKE COMPLEXITY LEGIBLE.</text>
+      <text x="28" y="173" fill="#2A160F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">I’m moving from product interfaces toward the infrastructure beneath them:</text>
+      <text x="28" y="195" fill="#2A160F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">pipelines, databases, distributed services, cloud and observability.</text>
+      <rect x="0" y="0" width="18" height="208" fill="#C7FF2E"><animate attributeName="y" values="-208;208;-208" dur="7s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <g transform="translate(766 122)">
+      <rect width="386" height="208" fill="#315CFF" stroke="#111111" stroke-width="2"/>
+      <text x="24" y="40" fill="#DDE4FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">NOW RESEARCHING</text>
+      <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="650" fill="#F5F0E6">
+        <text x="24" y="82">01  Data engineering</text><text x="24" y="115">02  Kubernetes</text><text x="24" y="148">03  Firewall engineering</text><text x="24" y="181">04  Cloud architecture</text>
+      </g>
+      <circle cx="350" cy="50" r="12" fill="#C7FF2E"><animate attributeName="cy" values="50;178;50" dur="5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <path d="M48 362H1152" stroke="#111111" stroke-width="2"/>
+    <text x="48" y="403" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">THE TOOL INDEX — SELECTED, NOT EXHAUSTIVE</text>
+
+    <g transform="translate(48 432)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+      <g>
+        <rect width="250" height="148" fill="#111111"/>
+        <text x="20" y="31" fill="#FF9A73" font-size="10" letter-spacing="2">LANGUAGES</text>
+        <text x="20" y="70" fill="#F5F0E6" font-size="18">Python</text><text x="20" y="100" fill="#F5F0E6" font-size="18">JavaScript / TS</text><text x="20" y="130" fill="#F5F0E6" font-size="18">C++</text>
+      </g>
+      <g transform="translate(274)">
+        <rect width="250" height="148" fill="#F5F0E6" stroke="#111111" stroke-width="2"/>
+        <text x="20" y="31" fill="#FF5A1F" font-size="10" letter-spacing="2">APPLICATION</text>
+        <text x="20" y="70" fill="#111111" font-size="18">Node + Express</text><text x="20" y="100" fill="#111111" font-size="18">MongoDB / MySQL</text><text x="20" y="130" fill="#111111" font-size="18">MERN</text>
+      </g>
+      <g transform="translate(548)">
+        <rect width="250" height="148" fill="#C7FF2E" stroke="#111111" stroke-width="2"/>
+        <text x="20" y="31" fill="#385000" font-size="10" letter-spacing="2">DATA + CLOUD</text>
+        <text x="20" y="70" fill="#111111" font-size="18">AWS / Azure / GCP</text><text x="20" y="100" fill="#111111" font-size="18">Pipelines + DBMS</text><text x="20" y="130" fill="#111111" font-size="18">Kubernetes ↗</text>
+      </g>
+      <g transform="translate(822)">
+        <rect width="282" height="148" fill="#FF5A1F" stroke="#111111" stroke-width="2"/>
+        <text x="20" y="31" fill="#441304" font-size="10" letter-spacing="2">INFRA + SECURITY</text>
+        <text x="20" y="70" fill="#111111" font-size="18">Cloudflare</text><text x="20" y="100" fill="#111111" font-size="18">Palo Alto / Meraki</text><text x="20" y="130" fill="#111111" font-size="18">Linux + networking</text>
+      </g>
+    </g>
+    <rect x="48" y="608" width="1104" height="8" fill="#111111"/><rect x="48" y="608" width="210" height="8" fill="#315CFF"><animate attributeName="x" values="48;942;48" dur="7s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
