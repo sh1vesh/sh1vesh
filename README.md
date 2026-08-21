@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./profile-media/cover.svg" width="100%" alt="Shivesh — Data Engineering, MERN and Cloud" />
+  <img src="./cover.svg" width="100%" alt="Shivesh — Data Engineering, MERN and Cloud" />
 
   <br />
 
@@ -23,13 +23,13 @@
 <br />
 
 <div align="center">
-  <img src="./profile-media/field-notes.svg" width="100%" alt="Shivesh's field notes, focus areas and technology stack" />
+  <img src="./field-notes.svg" width="100%" alt="Shivesh's field notes, focus areas and technology stack" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./profile-media/work-index.svg" width="100%" alt="Selected experiments by Shivesh" />
+  <img src="./work-index.svg" width="100%" alt="Selected experiments by Shivesh" />
 </div>
 
 <div align="center">
@@ -67,7 +67,7 @@
 <br />
 
 <div align="center">
-  <img src="./profile-media/closing-note.svg" width="100%" alt="Open to data engineering collaborations" />
+  <img src="./closing-note.svg" width="100%" alt="Open to data engineering collaborations" />
 </div>
 
 <div align="center">
