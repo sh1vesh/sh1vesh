@@ -57,12 +57,12 @@
 <br />
 
 <div align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=sh1vesh&bg_color=F5F0E6&color=111111&line=FF5A1F&point=315CFF&area=true&area_color=FFB38F&hide_border=true&custom_title=BUILD%20LOG"
-    width="98%"
-    alt="Shivesh's live contribution graph"
-  />
+  <sub>
+    Contributions, experiments and active builds are visible across my repositories.
+  </sub>
 </div>
+
+<br />
 
 <br />
 
