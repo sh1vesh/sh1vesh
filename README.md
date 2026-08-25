@@ -47,30 +47,10 @@
 <br />
 
 <div align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sh1vesh&theme=transparent"
-    width="98%"
-    alt="Shivesh's live GitHub profile summary"
-  />
-</div>
-
-<br />
-
-<div align="center">
   <sub>
     Contributions, experiments and active builds are visible across my repositories.
   </sub>
 </div>
-
-<br />
-
-<div align="center">
-  <sub>
-    Contributions, experiments and active builds are visible across my repositories.
-  </sub>
-</div>
-
-<br />
 
 <br />
 
