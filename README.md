@@ -64,6 +64,14 @@
 
 <br />
 
+<div align="center">
+  <sub>
+    Contributions, experiments and active builds are visible across my repositories.
+  </sub>
+</div>
+
+<br />
+
 <br />
 
 <div align="center">
