@@ -1,18 +1,17 @@
-<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1017"/>
       <stop offset="1" stop-color="#0A111B"/>
     </linearGradient>
 
-    <linearGradient id="line" x1="95" y1="330" x2="1120" y2="95" gradientUnits="userSpaceOnUse">
+    <linearGradient id="line" x1="95" y1="280" x2="1120" y2="85" gradientUnits="userSpaceOnUse">
       <stop stop-color="#147DFF"/>
       <stop offset="1" stop-color="#55B7FF"/>
     </linearGradient>
 
-    <linearGradient id="area" x1="0" y1="90" x2="0" y2="350" gradientUnits="userSpaceOnUse">
+    <linearGradient id="area" x1="0" y1="80" x2="0" y2="280" gradientUnits="userSpaceOnUse">
       <stop stop-color="#1677FF" stop-opacity=".36"/>
       <stop offset="1" stop-color="#1677FF" stop-opacity=".015"/>
     </linearGradient>
@@ -26,28 +25,23 @@
     </filter>
 
     <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path
-        d="M24 0H0V24"
-        stroke="#FFFFFF"
-        stroke-opacity=".025"
-        stroke-width="1"
-      />
+      <path d="M24 0H0V24" stroke="#FFFFFF" stroke-opacity=".025" stroke-width="1"/>
     </pattern>
 
     <style>
       .title {
-        font: 600 22px Inter, Arial, sans-serif;
+        font: 600 20px Inter, Arial, sans-serif;
         fill: #DCE8F8;
       }
 
       .sub {
-        font: 500 11px Inter, Arial, sans-serif;
+        font: 500 10px Inter, Arial, sans-serif;
         fill: #788CA8;
         letter-spacing: 2px;
       }
 
       .axis {
-        font: 500 13px Inter, Arial, sans-serif;
+        font: 500 12px Inter, Arial, sans-serif;
         fill: #6F8DB5;
       }
 
@@ -63,152 +57,74 @@
         stroke-width: 1.5;
       }
     </style>
-
   </defs>
 
-  <!-- FULL WIDTH BACKGROUND -->
-  <rect
-    width="1200"
-    height="440"
-    fill="#0B1017"
-  />
+  <!-- Background -->
+  <rect width="1200" height="360" fill="#0B1017"/>
 
-  <!-- FULL WIDTH CARD -->
-  <rect
-    x="1"
-    y="20"
-    width="1198"
-    height="400"
-    rx="28"
-    fill="url(#bg)"
-    class="border"
-  />
+  <!-- Full width card -->
+  <rect x="1" y="20" width="1198" height="320" rx="24" fill="url(#bg)" class="border"/>
+  <rect x="1" y="20" width="1198" height="320" rx="24" fill="url(#gridPattern)"/>
 
-  <rect
-    x="1"
-    y="20"
-    width="1198"
-    height="400"
-    rx="28"
-    fill="url(#gridPattern)"
-  />
+  <!-- Header -->
+  <text x="48" y="60" class="sub">GITHUB / CONTRIBUTION ACTIVITY</text>
+  <text x="48" y="92" class="title">CONTRIBUTIONS IN THE LAST YEAR.</text>
 
-  <!-- HEADER -->
+  <!-- Filter button -->
+  <rect x="1013" y="42" width="140" height="36" rx="10" fill="#0D1622" stroke="#263D5A"/>
+  <text x="1034" y="64" class="axis">LAST YEAR</text>
+  <path d="M1121 56L1128 63L1135 56" stroke="#8AA6C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <text
-    x="48"
-    y="68"
-    class="sub"
-  >
-    GITHUB / CONTRIBUTION ACTIVITY
-  </text>
+  <!-- Grid -->
+  <line x1="80" y1="125" x2="1145" y2="125" class="grid"/>
+  <line x1="80" y1="170" x2="1145" y2="170" class="grid"/>
+  <line x1="80" y1="215" x2="1145" y2="215" class="grid"/>
+  <line x1="80" y1="260" x2="1145" y2="260" class="grid"/>
 
-  <text
-    x="48"
-    y="104"
-    class="title"
-  >
-    CONTRIBUTIONS IN THE LAST YEAR.
-  </text>
+  <!-- Axes -->
+  <line x1="80" y1="290" x2="1145" y2="290" stroke="#314C6D" stroke-width="1.2"/>
+  <line x1="80" y1="125" x2="80" y2="290" stroke="#314C6D" stroke-width="1.2"/>
 
-  <!-- LAST YEAR -->
+  <!-- Y labels -->
+  <text x="40" y="130" class="axis">60</text>
+  <text x="40" y="175" class="axis">45</text>
+  <text x="40" y="220" class="axis">30</text>
+  <text x="40" y="265" class="axis">15</text>
+  <text x="50" y="295" class="axis">0</text>
 
-  <rect
-    x="1013"
-    y="50"
-    width="140"
-    height="42"
-    rx="10"
-    fill="#0D1622"
-    stroke="#263D5A"
-  />
-
-  <text
-    x="1034"
-    y="76"
-    class="axis"
-  >
-    LAST YEAR
-  </text>
-
-  <path
-    d="M1121 65L1128 72L1135 65"
-    stroke="#8AA6C8"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-
-  <!-- GRID -->
-
-  <line x1="80" y1="146" x2="1145" y2="146" class="grid"/>
-  <line x1="80" y1="201" x2="1145" y2="201" class="grid"/>
-  <line x1="80" y1="256" x2="1145" y2="256" class="grid"/>
-  <line x1="80" y1="311" x2="1145" y2="311" class="grid"/>
-
-  <!-- AXES -->
-
-  <line
-    x1="80"
-    y1="346"
-    x2="1145"
-    y2="346"
-    stroke="#314C6D"
-    stroke-width="1.2"
-  />
-
-  <line
-    x1="80"
-    y1="146"
-    x2="80"
-    y2="346"
-    stroke="#314C6D"
-    stroke-width="1.2"
-  />
-
-  <!-- Y LABELS -->
-
-  <text x="40" y="151" class="axis">60</text>
-  <text x="40" y="206" class="axis">45</text>
-  <text x="40" y="261" class="axis">30</text>
-  <text x="40" y="316" class="axis">15</text>
-  <text x="50" y="351" class="axis">0</text>
-
-  <!-- AREA -->
-
+  <!-- Area -->
   <path
     d="
-      M92 338
-      C180 338 260 338 340 338
-      C420 338 490 338 550 337
-      C580 336 600 327 620 312
-      C640 297 657 292 678 292
-      C714 292 744 307 777 322
-      C820 336 872 333 923 335
-      C972 337 997 337 1015 325
-      C1039 307 1059 269 1083 218
-      C1105 168 1122 129 1134 108
-      L1134 346
-      L92 346
+      M92 284
+      C180 284 260 284 340 284
+      C420 284 490 284 550 283
+      C580 282 600 274 620 261
+      C640 246 657 242 678 242
+      C714 242 744 255 777 268
+      C820 281 872 279 923 280
+      C972 281 997 281 1015 271
+      C1039 255 1059 224 1083 182
+      C1105 145 1122 110 1134 94
+      L1134 290
+      L92 290
       Z
     "
     fill="url(#area)"
   />
 
-  <!-- GLOW -->
-
+  <!-- Glow -->
   <path
     d="
-      M92 338
-      C180 338 260 338 340 338
-      C420 338 490 338 550 337
-      C580 336 600 327 620 312
-      C640 297 657 292 678 292
-      C714 292 744 307 777 322
-      C820 336 872 333 923 335
-      C972 337 997 337 1015 325
-      C1039 307 1059 269 1083 218
-      C1105 168 1122 129 1134 108
+      M92 284
+      C180 284 260 284 340 284
+      C420 284 490 284 550 283
+      C580 282 600 274 620 261
+      C640 246 657 242 678 242
+      C714 242 744 255 777 268
+      C820 281 872 279 923 280
+      C972 281 997 281 1015 271
+      C1039 255 1059 224 1083 182
+      C1105 145 1122 110 1134 94
     "
     fill="none"
     stroke="#167DFF"
@@ -218,20 +134,19 @@
     filter="url(#glow)"
   />
 
-  <!-- MAIN LINE -->
-
+  <!-- Main line -->
   <path
     d="
-      M92 338
-      C180 338 260 338 340 338
-      C420 338 490 338 550 337
-      C580 336 600 327 620 312
-      C640 297 657 292 678 292
-      C714 292 744 307 777 322
-      C820 336 872 333 923 335
-      C972 337 997 337 1015 325
-      C1039 307 1059 269 1083 218
-      C1105 168 1122 129 1134 108
+      M92 284
+      C180 284 260 284 340 284
+      C420 284 490 284 550 283
+      C580 282 600 274 620 261
+      C640 246 657 242 678 242
+      C714 242 744 255 777 268
+      C820 281 872 279 923 280
+      C972 281 997 281 1015 271
+      C1039 255 1059 224 1083 182
+      C1105 145 1122 110 1134 94
     "
     fill="none"
     stroke="url(#line)"
@@ -240,44 +155,20 @@
     stroke-linejoin="round"
   />
 
-  <!-- FINAL POINT -->
+  <!-- Final point -->
+  <circle cx="1134" cy="94" r="14" fill="#187FFF" fill-opacity=".18" filter="url(#glow)"/>
+  <circle cx="1134" cy="94" r="7" fill="#EEF7FF" filter="url(#glow)"/>
+  <circle cx="1134" cy="94" r="4" fill="#64C4FF"/>
 
-  <circle
-    cx="1134"
-    cy="108"
-    r="14"
-    fill="#187FFF"
-    fill-opacity=".18"
-    filter="url(#glow)"
-  />
-
-  <circle
-    cx="1134"
-    cy="108"
-    r="7"
-    fill="#EEF7FF"
-    filter="url(#glow)"
-  />
-
-  <circle
-    cx="1134"
-    cy="108"
-    r="4"
-    fill="#64C4FF"
-  />
-
-  <!-- X LABELS -->
-
+  <!-- X labels -->
   <g class="axis">
-
-    <text x="70" y="382">25/08</text>
-    <text x="244" y="382">25/10</text>
-    <text x="418" y="382">25/12</text>
-    <text x="592" y="382">26/02</text>
-    <text x="766" y="382">26/04</text>
-    <text x="940" y="382">26/06</text>
-    <text x="1100" y="382">26/08</text>
-
+    <text x="70" y="318">25/08</text>
+    <text x="244" y="318">25/10</text>
+    <text x="418" y="318">25/12</text>
+    <text x="592" y="318">26/02</text>
+    <text x="766" y="318">26/04</text>
+    <text x="940" y="318">26/06</text>
+    <text x="1100" y="318">26/08</text>
   </g>
 
 </svg>
