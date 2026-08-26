@@ -1,32 +1,271 @@
 <svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
+
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1017"/><stop offset="1" stop-color="#0A111B"/>
+      <stop stop-color="#0B1017"/>
+      <stop offset="1" stop-color="#0A111B"/>
     </linearGradient>
-    <linearGradient id="line" x1="150" y1="330" x2="1080" y2="95" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#147DFF"/><stop offset="1" stop-color="#55B7FF"/>
+
+    <linearGradient id="line" x1="110" y1="330" x2="1110" y2="95" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#147DFF"/>
+      <stop offset="1" stop-color="#55B7FF"/>
     </linearGradient>
+
     <linearGradient id="area" x1="0" y1="90" x2="0" y2="350" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1677FF" stop-opacity=".36"/><stop offset="1" stop-color="#1677FF" stop-opacity=".015"/>
+      <stop stop-color="#1677FF" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#1677FF" stop-opacity=".015"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#FFFFFF" stroke-opacity=".025" stroke-width="1"/></pattern>
-    <style>.title{font:600 22px Inter,Arial,sans-serif;fill:#DCE8F8}.sub{font:500 11px Inter,Arial,sans-serif;fill:#788CA8;letter-spacing:2px}.axis{font:500 13px Inter,Arial,sans-serif;fill:#6F8DB5}.grid{stroke:#28405E;stroke-width:1;stroke-dasharray:5 7;opacity:.55}.border{stroke:#5C5A52;stroke-width:1.5}</style>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path
+        d="M24 0H0V24"
+        stroke="#FFFFFF"
+        stroke-opacity=".025"
+        stroke-width="1"
+      />
+    </pattern>
+
+    <style>
+      .title {
+        font: 600 22px Inter, Arial, sans-serif;
+        fill: #DCE8F8;
+      }
+
+      .sub {
+        font: 500 11px Inter, Arial, sans-serif;
+        fill: #788CA8;
+        letter-spacing: 2px;
+      }
+
+      .axis {
+        font: 500 13px Inter, Arial, sans-serif;
+        fill: #6F8DB5;
+      }
+
+      .grid {
+        stroke: #28405E;
+        stroke-width: 1;
+        stroke-dasharray: 5 7;
+        opacity: .55;
+      }
+
+      .border {
+        stroke: #5C5A52;
+        stroke-width: 1.5;
+      }
+    </style>
+
   </defs>
-  <rect width="1200" height="440" fill="#0B1017"/>
-  <rect x="40" y="24" width="1120" height="392" rx="28" fill="url(#bg)" class="border"/>
-  <rect x="40" y="24" width="1120" height="392" rx="28" fill="url(#gridPattern)"/>
-  <text x="82" y="72" class="sub">GITHUB / CONTRIBUTION ACTIVITY</text>
-  <text x="82" y="108" class="title">CONTRIBUTIONS IN THE LAST YEAR.</text>
-  <rect x="969" y="54" width="145" height="42" rx="10" fill="#0D1622" stroke="#263D5A"/>
-  <text x="992" y="80" class="axis">LAST YEAR</text>
-  <path d="M1086 69l7 7 7-7" stroke="#8AA6C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="112" y1="150" x2="1092" y2="150" class="grid"/><line x1="112" y1="205" x2="1092" y2="205" class="grid"/><line x1="112" y1="260" x2="1092" y2="260" class="grid"/><line x1="112" y1="315" x2="1092" y2="315" class="grid"/>
-  <line x1="112" y1="350" x2="1092" y2="350" stroke="#314C6D" stroke-width="1.2"/><line x1="112" y1="150" x2="112" y2="350" stroke="#314C6D" stroke-width="1.2"/>
-  <text x="72" y="155" class="axis">60</text><text x="72" y="210" class="axis">45</text><text x="72" y="265" class="axis">30</text><text x="72" y="320" class="axis">15</text><text x="82" y="355" class="axis">0</text>
-  <path d="M124 342 C210 342 282 342 350 342 C425 342 480 342 530 341 C560 340 579 331 598 316 C616 301 633 296 652 296 C687 296 714 311 745 326 C785 340 835 337 884 339 C930 341 952 341 969 329 C992 311 1011 273 1033 222 C1054 172 1070 133 1081 112 L1081 350 L124 350 Z" fill="url(#area)"/>
-  <path d="M124 342 C210 342 282 342 350 342 C425 342 480 342 530 341 C560 340 579 331 598 316 C616 301 633 296 652 296 C687 296 714 311 745 326 C785 340 835 337 884 339 C930 341 952 341 969 329 C992 311 1011 273 1033 222 C1054 172 1070 133 1081 112" fill="none" stroke="#167DFF" stroke-opacity=".22" stroke-width="12" stroke-linecap="round" filter="url(#glow)"/>
-  <path d="M124 342 C210 342 282 342 350 342 C425 342 480 342 530 341 C560 340 579 331 598 316 C616 301 633 296 652 296 C687 296 714 311 745 326 C785 340 835 337 884 339 C930 341 952 341 969 329 C992 311 1011 273 1033 222 C1054 172 1070 133 1081 112" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="1081" cy="112" r="14" fill="#187FFF" fill-opacity=".18" filter="url(#glow)"/><circle cx="1081" cy="112" r="7" fill="#EEF7FF" filter="url(#glow)"/><circle cx="1081" cy="112" r="4" fill="#64C4FF"/>
-  <g class="axis"><text x="103" y="382">25/08</text><text x="260" y="382">25/10</text><text x="417" y="382">25/12</text><text x="574" y="382">26/02</text><text x="731" y="382">26/04</text><text x="888" y="382">26/06</text><text x="1043" y="382">26/08</text></g>
+
+  <!-- Background -->
+  <rect
+    width="1200"
+    height="440"
+    fill="#0B1017"
+  />
+
+  <!-- Main Card -->
+  <rect
+    x="20"
+    y="20"
+    width="1160"
+    height="400"
+    rx="28"
+    fill="url(#bg)"
+    class="border"
+  />
+
+  <rect
+    x="20"
+    y="20"
+    width="1160"
+    height="400"
+    rx="28"
+    fill="url(#gridPattern)"
+  />
+
+  <!-- Header -->
+  <text
+    x="62"
+    y="68"
+    class="sub"
+  >
+    GITHUB / CONTRIBUTION ACTIVITY
+  </text>
+
+  <text
+    x="62"
+    y="104"
+    class="title"
+  >
+    CONTRIBUTIONS IN THE LAST YEAR.
+  </text>
+
+  <!-- Last Year Button -->
+  <rect
+    x="1000"
+    y="50"
+    width="135"
+    height="42"
+    rx="10"
+    fill="#0D1622"
+    stroke="#263D5A"
+  />
+
+  <text
+    x="1020"
+    y="76"
+    class="axis"
+  >
+    LAST YEAR
+  </text>
+
+  <path
+    d="M1105 65L1112 72L1119 65"
+    stroke="#8AA6C8"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Grid -->
+  <line x1="92" y1="146" x2="1130" y2="146" class="grid"/>
+  <line x1="92" y1="201" x2="1130" y2="201" class="grid"/>
+  <line x1="92" y1="256" x2="1130" y2="256" class="grid"/>
+  <line x1="92" y1="311" x2="1130" y2="311" class="grid"/>
+
+  <!-- Axes -->
+  <line
+    x1="92"
+    y1="346"
+    x2="1130"
+    y2="346"
+    stroke="#314C6D"
+    stroke-width="1.2"
+  />
+
+  <line
+    x1="92"
+    y1="146"
+    x2="92"
+    y2="346"
+    stroke="#314C6D"
+    stroke-width="1.2"
+  />
+
+  <!-- Y Axis Labels -->
+  <text x="52" y="151" class="axis">60</text>
+  <text x="52" y="206" class="axis">45</text>
+  <text x="52" y="261" class="axis">30</text>
+  <text x="52" y="316" class="axis">15</text>
+  <text x="62" y="351" class="axis">0</text>
+
+  <!-- Area -->
+  <path
+    d="
+      M104 338
+      C190 338 270 338 345 338
+      C420 338 485 338 545 337
+      C575 336 595 327 615 312
+      C634 297 650 292 670 292
+      C706 292 735 307 767 322
+      C808 336 860 333 910 335
+      C957 337 981 337 998 325
+      C1021 307 1041 269 1064 218
+      C1086 168 1102 129 1113 108
+      L1113 346
+      L104 346
+      Z
+    "
+    fill="url(#area)"
+  />
+
+  <!-- Glow Line -->
+  <path
+    d="
+      M104 338
+      C190 338 270 338 345 338
+      C420 338 485 338 545 337
+      C575 336 595 327 615 312
+      C634 297 650 292 670 292
+      C706 292 735 307 767 322
+      C808 336 860 333 910 335
+      C957 337 981 337 998 325
+      C1021 307 1041 269 1064 218
+      C1086 168 1102 129 1113 108
+    "
+    fill="none"
+    stroke="#167DFF"
+    stroke-opacity=".22"
+    stroke-width="12"
+    stroke-linecap="round"
+    filter="url(#glow)"
+  />
+
+  <!-- Main Graph -->
+  <path
+    d="
+      M104 338
+      C190 338 270 338 345 338
+      C420 338 485 338 545 337
+      C575 336 595 327 615 312
+      C634 297 650 292 670 292
+      C706 292 735 307 767 322
+      C808 336 860 333 910 335
+      C957 337 981 337 998 325
+      C1021 307 1041 269 1064 218
+      C1086 168 1102 129 1113 108
+    "
+    fill="none"
+    stroke="url(#line)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Final Point -->
+  <circle
+    cx="1113"
+    cy="108"
+    r="14"
+    fill="#187FFF"
+    fill-opacity=".18"
+    filter="url(#glow)"
+  />
+
+  <circle
+    cx="1113"
+    cy="108"
+    r="7"
+    fill="#EEF7FF"
+    filter="url(#glow)"
+  />
+
+  <circle
+    cx="1113"
+    cy="108"
+    r="4"
+    fill="#64C4FF"
+  />
+
+  <!-- X Axis Labels -->
+  <g class="axis">
+    <text x="83" y="382">25/08</text>
+    <text x="250" y="382">25/10</text>
+    <text x="417" y="382">25/12</text>
+    <text x="584" y="382">26/02</text>
+    <text x="751" y="382">26/04</text>
+    <text x="918" y="382">26/06</text>
+    <text x="1080" y="382">26/08</text>
+  </g>
+
 </svg>
