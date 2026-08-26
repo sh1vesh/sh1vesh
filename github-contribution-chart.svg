@@ -7,7 +7,7 @@
       <stop offset="1" stop-color="#0A111B"/>
     </linearGradient>
 
-    <linearGradient id="line" x1="110" y1="330" x2="1110" y2="95" gradientUnits="userSpaceOnUse">
+    <linearGradient id="line" x1="95" y1="330" x2="1120" y2="95" gradientUnits="userSpaceOnUse">
       <stop stop-color="#147DFF"/>
       <stop offset="1" stop-color="#55B7FF"/>
     </linearGradient>
@@ -66,18 +66,18 @@
 
   </defs>
 
-  <!-- Background -->
+  <!-- FULL WIDTH BACKGROUND -->
   <rect
     width="1200"
     height="440"
     fill="#0B1017"
   />
 
-  <!-- Main Card -->
+  <!-- FULL WIDTH CARD -->
   <rect
-    x="20"
+    x="1"
     y="20"
-    width="1160"
+    width="1198"
     height="400"
     rx="28"
     fill="url(#bg)"
@@ -85,17 +85,18 @@
   />
 
   <rect
-    x="20"
+    x="1"
     y="20"
-    width="1160"
+    width="1198"
     height="400"
     rx="28"
     fill="url(#gridPattern)"
   />
 
-  <!-- Header -->
+  <!-- HEADER -->
+
   <text
-    x="62"
+    x="48"
     y="68"
     class="sub"
   >
@@ -103,18 +104,19 @@
   </text>
 
   <text
-    x="62"
+    x="48"
     y="104"
     class="title"
   >
     CONTRIBUTIONS IN THE LAST YEAR.
   </text>
 
-  <!-- Last Year Button -->
+  <!-- LAST YEAR -->
+
   <rect
-    x="1000"
+    x="1013"
     y="50"
-    width="135"
+    width="140"
     height="42"
     rx="10"
     fill="#0D1622"
@@ -122,7 +124,7 @@
   />
 
   <text
-    x="1020"
+    x="1034"
     y="76"
     class="axis"
   >
@@ -130,78 +132,83 @@
   </text>
 
   <path
-    d="M1105 65L1112 72L1119 65"
+    d="M1121 65L1128 72L1135 65"
     stroke="#8AA6C8"
     stroke-width="2"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
-  <!-- Grid -->
-  <line x1="92" y1="146" x2="1130" y2="146" class="grid"/>
-  <line x1="92" y1="201" x2="1130" y2="201" class="grid"/>
-  <line x1="92" y1="256" x2="1130" y2="256" class="grid"/>
-  <line x1="92" y1="311" x2="1130" y2="311" class="grid"/>
+  <!-- GRID -->
 
-  <!-- Axes -->
+  <line x1="80" y1="146" x2="1145" y2="146" class="grid"/>
+  <line x1="80" y1="201" x2="1145" y2="201" class="grid"/>
+  <line x1="80" y1="256" x2="1145" y2="256" class="grid"/>
+  <line x1="80" y1="311" x2="1145" y2="311" class="grid"/>
+
+  <!-- AXES -->
+
   <line
-    x1="92"
+    x1="80"
     y1="346"
-    x2="1130"
+    x2="1145"
     y2="346"
     stroke="#314C6D"
     stroke-width="1.2"
   />
 
   <line
-    x1="92"
+    x1="80"
     y1="146"
-    x2="92"
+    x2="80"
     y2="346"
     stroke="#314C6D"
     stroke-width="1.2"
   />
 
-  <!-- Y Axis Labels -->
-  <text x="52" y="151" class="axis">60</text>
-  <text x="52" y="206" class="axis">45</text>
-  <text x="52" y="261" class="axis">30</text>
-  <text x="52" y="316" class="axis">15</text>
-  <text x="62" y="351" class="axis">0</text>
+  <!-- Y LABELS -->
 
-  <!-- Area -->
+  <text x="40" y="151" class="axis">60</text>
+  <text x="40" y="206" class="axis">45</text>
+  <text x="40" y="261" class="axis">30</text>
+  <text x="40" y="316" class="axis">15</text>
+  <text x="50" y="351" class="axis">0</text>
+
+  <!-- AREA -->
+
   <path
     d="
-      M104 338
-      C190 338 270 338 345 338
-      C420 338 485 338 545 337
-      C575 336 595 327 615 312
-      C634 297 650 292 670 292
-      C706 292 735 307 767 322
-      C808 336 860 333 910 335
-      C957 337 981 337 998 325
-      C1021 307 1041 269 1064 218
-      C1086 168 1102 129 1113 108
-      L1113 346
-      L104 346
+      M92 338
+      C180 338 260 338 340 338
+      C420 338 490 338 550 337
+      C580 336 600 327 620 312
+      C640 297 657 292 678 292
+      C714 292 744 307 777 322
+      C820 336 872 333 923 335
+      C972 337 997 337 1015 325
+      C1039 307 1059 269 1083 218
+      C1105 168 1122 129 1134 108
+      L1134 346
+      L92 346
       Z
     "
     fill="url(#area)"
   />
 
-  <!-- Glow Line -->
+  <!-- GLOW -->
+
   <path
     d="
-      M104 338
-      C190 338 270 338 345 338
-      C420 338 485 338 545 337
-      C575 336 595 327 615 312
-      C634 297 650 292 670 292
-      C706 292 735 307 767 322
-      C808 336 860 333 910 335
-      C957 337 981 337 998 325
-      C1021 307 1041 269 1064 218
-      C1086 168 1102 129 1113 108
+      M92 338
+      C180 338 260 338 340 338
+      C420 338 490 338 550 337
+      C580 336 600 327 620 312
+      C640 297 657 292 678 292
+      C714 292 744 307 777 322
+      C820 336 872 333 923 335
+      C972 337 997 337 1015 325
+      C1039 307 1059 269 1083 218
+      C1105 168 1122 129 1134 108
     "
     fill="none"
     stroke="#167DFF"
@@ -211,19 +218,20 @@
     filter="url(#glow)"
   />
 
-  <!-- Main Graph -->
+  <!-- MAIN LINE -->
+
   <path
     d="
-      M104 338
-      C190 338 270 338 345 338
-      C420 338 485 338 545 337
-      C575 336 595 327 615 312
-      C634 297 650 292 670 292
-      C706 292 735 307 767 322
-      C808 336 860 333 910 335
-      C957 337 981 337 998 325
-      C1021 307 1041 269 1064 218
-      C1086 168 1102 129 1113 108
+      M92 338
+      C180 338 260 338 340 338
+      C420 338 490 338 550 337
+      C580 336 600 327 620 312
+      C640 297 657 292 678 292
+      C714 292 744 307 777 322
+      C820 336 872 333 923 335
+      C972 337 997 337 1015 325
+      C1039 307 1059 269 1083 218
+      C1105 168 1122 129 1134 108
     "
     fill="none"
     stroke="url(#line)"
@@ -232,9 +240,10 @@
     stroke-linejoin="round"
   />
 
-  <!-- Final Point -->
+  <!-- FINAL POINT -->
+
   <circle
-    cx="1113"
+    cx="1134"
     cy="108"
     r="14"
     fill="#187FFF"
@@ -243,7 +252,7 @@
   />
 
   <circle
-    cx="1113"
+    cx="1134"
     cy="108"
     r="7"
     fill="#EEF7FF"
@@ -251,21 +260,24 @@
   />
 
   <circle
-    cx="1113"
+    cx="1134"
     cy="108"
     r="4"
     fill="#64C4FF"
   />
 
-  <!-- X Axis Labels -->
+  <!-- X LABELS -->
+
   <g class="axis">
-    <text x="83" y="382">25/08</text>
-    <text x="250" y="382">25/10</text>
-    <text x="417" y="382">25/12</text>
-    <text x="584" y="382">26/02</text>
-    <text x="751" y="382">26/04</text>
-    <text x="918" y="382">26/06</text>
-    <text x="1080" y="382">26/08</text>
+
+    <text x="70" y="382">25/08</text>
+    <text x="244" y="382">25/10</text>
+    <text x="418" y="382">25/12</text>
+    <text x="592" y="382">26/02</text>
+    <text x="766" y="382">26/04</text>
+    <text x="940" y="382">26/06</text>
+    <text x="1100" y="382">26/08</text>
+
   </g>
 
 </svg>
