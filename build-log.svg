@@ -1,134 +1,270 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+
   <defs>
     <pattern id="gridDark" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#1e2228" stroke-width="1"/>
+      <path d="M22 0 L0 0 0 22" fill="none" stroke="#1e2228" stroke-width="1"/>
     </pattern>
+
     <pattern id="gridBlue" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#6c7cff" stroke-width="0.7" opacity="0.35"/>
+      <path d="M20 0 L0 0 0 20" fill="none" stroke="#6c7cff" stroke-width="0.7" opacity="0.35"/>
     </pattern>
+
     <pattern id="stripeOrange" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <rect width="12" height="12" fill="#ff5a1f"/>
       <rect width="4" height="12" fill="#ff6f3b" opacity="0.65"/>
     </pattern>
   </defs>
 
-  <!-- outer panel -->
-  <rect x="18" y="18" width="1164" height="324" rx="24" fill="#101214" stroke="#66635d" stroke-width="2"/>
-  <rect x="18" y="18" width="1164" height="324" rx="24" fill="url(#gridDark)" opacity="0.6"/>
+  <!-- background -->
+  <rect width="1200" height="360" fill="#0B1017"/>
+
+  <!-- full-width outer panel -->
+  <rect
+    x="1"
+    y="18"
+    width="1198"
+    height="324"
+    rx="24"
+    fill="#101214"
+    stroke="#66635d"
+    stroke-width="2"
+  />
+
+  <rect
+    x="1"
+    y="18"
+    width="1198"
+    height="324"
+    rx="24"
+    fill="url(#gridDark)"
+    opacity="0.6"
+  />
 
   <!-- header -->
-  <text x="62" y="66"
-        fill="#ff5a1f"
-        font-family="Courier New, monospace"
-        font-size="15"
-        font-weight="700"
-        letter-spacing="4">
+  <text
+    x="48"
+    y="66"
+    fill="#ff5a1f"
+    font-family="Courier New, monospace"
+    font-size="15"
+    font-weight="700"
+    letter-spacing="4"
+  >
     04 / BUILD LOG
   </text>
 
-  <text x="62" y="112"
-        fill="#f5f0e6"
-        font-family="Arial Black, Segoe UI, sans-serif"
-        font-size="40"
-        font-weight="900">
+  <text
+    x="48"
+    y="112"
+    fill="#f5f0e6"
+    font-family="Arial Black, Segoe UI, sans-serif"
+    font-size="40"
+    font-weight="900"
+  >
     SYSTEMS IN MOTION.
   </text>
 
-  <text x="62" y="142"
-        fill="#8f8a80"
-        font-family="Courier New, monospace"
-        font-size="13"
-        letter-spacing="1.5">
+  <text
+    x="48"
+    y="142"
+    fill="#8f8a80"
+    font-family="Courier New, monospace"
+    font-size="13"
+    letter-spacing="1.5"
+  >
     PUBLIC REPOSITORY NOTES / 2026
   </text>
 
   <!-- divider -->
-  <line x1="62" y1="166" x2="1138" y2="166" stroke="#494949" stroke-width="1"/>
+  <line
+    x1="48"
+    y1="166"
+    x2="1152"
+    y2="166"
+    stroke="#494949"
+    stroke-width="1"
+  />
 
   <!-- left block -->
-  <rect x="62" y="190" width="520" height="112" fill="#f5f0e6"/>
-  <text x="84" y="220"
-        fill="#111111"
-        font-family="Courier New, monospace"
-        font-size="12"
-        letter-spacing="3">
+  <rect
+    x="48"
+    y="190"
+    width="540"
+    height="112"
+    fill="#f5f0e6"
+  />
+
+  <text
+    x="70"
+    y="220"
+    fill="#111111"
+    font-family="Courier New, monospace"
+    font-size="12"
+    letter-spacing="3"
+  >
     RECENT SIGNAL
   </text>
 
-  <text x="84" y="255"
-        fill="#111111"
-        font-family="Arial Black, Segoe UI, sans-serif"
-        font-size="27"
-        font-weight="900">
+  <text
+    x="70"
+    y="255"
+    fill="#111111"
+    font-family="Arial Black, Segoe UI, sans-serif"
+    font-size="27"
+    font-weight="900"
+  >
     BUILD. TEST. SHIP. REPEAT.
   </text>
 
-  <text x="84" y="282"
-        fill="#4e4a44"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="14">
+  <text
+    x="70"
+    y="282"
+    fill="#4e4a44"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="14"
+  >
     Small experiments, working systems and public iteration.
   </text>
 
-  <!-- center orange signal module -->
-  <rect x="606" y="190" width="240" height="112" fill="url(#stripeOrange)"/>
-  <text x="626" y="220"
-        fill="#111111"
-        font-family="Courier New, monospace"
-        font-size="11"
-        letter-spacing="2.5">
+  <!-- center orange module -->
+  <rect
+    x="612"
+    y="190"
+    width="250"
+    height="112"
+    fill="url(#stripeOrange)"
+  />
+
+  <text
+    x="632"
+    y="220"
+    fill="#111111"
+    font-family="Courier New, monospace"
+    font-size="11"
+    letter-spacing="2.5"
+  >
     ACTIVITY / LIVE
   </text>
 
-  <!-- bars -->
-  <g transform="translate(626,238)">
-    <rect x="0"   y="30" width="12" height="18" fill="#111111"/>
-    <rect x="20"  y="22" width="12" height="26" fill="#111111"/>
-    <rect x="40"  y="34" width="12" height="14" fill="#111111"/>
-    <rect x="60"  y="15" width="12" height="33" fill="#111111"/>
-    <rect x="80"  y="6"  width="12" height="42" fill="#111111"/>
+  <!-- activity bars -->
+  <g transform="translate(632,238)">
+    <rect x="0" y="30" width="12" height="18" fill="#111111"/>
+    <rect x="20" y="22" width="12" height="26" fill="#111111"/>
+    <rect x="40" y="34" width="12" height="14" fill="#111111"/>
+    <rect x="60" y="15" width="12" height="33" fill="#111111"/>
+    <rect x="80" y="6" width="12" height="42" fill="#111111"/>
     <rect x="100" y="25" width="12" height="23" fill="#111111"/>
     <rect x="120" y="12" width="12" height="36" fill="#111111"/>
-    <rect x="140" y="2"  width="12" height="46" fill="#111111"/>
+    <rect x="140" y="2" width="12" height="46" fill="#111111"/>
     <rect x="160" y="18" width="12" height="30" fill="#111111"/>
-    <rect x="180" y="8"  width="12" height="40" fill="#111111"/>
+    <rect x="180" y="8" width="12" height="40" fill="#111111"/>
   </g>
 
   <!-- right blue module -->
-  <rect x="870" y="190" width="268" height="112" fill="#315cff"/>
-  <rect x="870" y="190" width="268" height="112" fill="url(#gridBlue)"/>
+  <rect
+    x="886"
+    y="190"
+    width="266"
+    height="112"
+    fill="#315cff"
+  />
 
-  <text x="892" y="220"
-        fill="#f5f0e6"
-        font-family="Courier New, monospace"
-        font-size="11"
-        letter-spacing="2.5">
+  <rect
+    x="886"
+    y="190"
+    width="266"
+    height="112"
+    fill="url(#gridBlue)"
+  />
+
+  <text
+    x="908"
+    y="220"
+    fill="#f5f0e6"
+    font-family="Courier New, monospace"
+    font-size="11"
+    letter-spacing="2.5"
+  >
     CURRENT STATE
   </text>
 
-  <circle cx="1106" cy="219" r="11" fill="#c7ff1a"/>
-  <circle cx="1106" cy="219" r="18" fill="none" stroke="#c7ff1a" stroke-width="1" opacity="0.45"/>
+  <circle
+    cx="1120"
+    cy="219"
+    r="11"
+    fill="#c7ff1a"
+  />
 
-  <text x="892" y="256"
-        fill="#f5f0e6"
-        font-family="Arial Black, Segoe UI, sans-serif"
-        font-size="21"
-        font-weight="900">
+  <circle
+    cx="1120"
+    cy="219"
+    r="18"
+    fill="none"
+    stroke="#c7ff1a"
+    stroke-width="1"
+    opacity="0.45"
+  />
+
+  <text
+    x="908"
+    y="256"
+    fill="#f5f0e6"
+    font-family="Arial Black, Segoe UI, sans-serif"
+    font-size="21"
+    font-weight="900"
+  >
     ACTIVE
   </text>
 
-  <text x="892" y="282"
-        fill="#d9dfff"
-        font-family="Courier New, monospace"
-        font-size="12">
+  <text
+    x="908"
+    y="282"
+    fill="#d9dfff"
+    font-family="Courier New, monospace"
+    font-size="12"
+  >
     commits / experiments / releases
   </text>
 
   <!-- footer rail -->
-  <line x1="62" y1="322" x2="1138" y2="322" stroke="#494949" stroke-width="1"/>
-  <rect x="62" y="319" width="190" height="6" fill="#ff5a1f">
-    <animate attributeName="width" values="80;190;120;190" dur="6s" repeatCount="indefinite"/>
+  <line
+    x1="48"
+    y1="322"
+    x2="1152"
+    y2="322"
+    stroke="#494949"
+    stroke-width="1"
+  />
+
+  <rect
+    x="48"
+    y="319"
+    width="190"
+    height="6"
+    fill="#ff5a1f"
+  >
+    <animate
+      attributeName="width"
+      values="80;190;120;190"
+      dur="6s"
+      repeatCount="indefinite"
+    />
   </rect>
-  <rect x="252" y="319" width="150" height="6" fill="#315cff"/>
-  <rect x="402" y="319" width="60" height="6" fill="#c7ff1a"/>
+
+  <rect
+    x="238"
+    y="319"
+    width="150"
+    height="6"
+    fill="#315cff"
+  />
+
+  <rect
+    x="388"
+    y="319"
+    width="60"
+    height="6"
+    fill="#c7ff1a"
+  />
+
 </svg>
