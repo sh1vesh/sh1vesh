@@ -1,28 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="360"
+     viewBox="0 0 1200 360">
+
   <defs>
     <pattern id="gridDark" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0L0 0 0 22" fill="none" stroke="#1e2228" stroke-width="1"/>
+      <path d="M22 0L0 0 0 22"
+            fill="none"
+            stroke="#1e2228"
+            stroke-width="1"/>
     </pattern>
 
     <pattern id="gridBlue" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M20 0L0 0 0 20" fill="none" stroke="#6c7cff" stroke-width="0.7" opacity="0.35"/>
+      <path d="M20 0L0 0 0 20"
+            fill="none"
+            stroke="#6c7cff"
+            stroke-width="0.7"
+            opacity="0.35"/>
     </pattern>
 
-    <pattern id="stripeOrange" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <pattern id="stripeOrange"
+             width="12"
+             height="12"
+             patternUnits="userSpaceOnUse"
+             patternTransform="rotate(45)">
       <rect width="12" height="12" fill="#ff5a1f"/>
       <rect width="4" height="12" fill="#ff6f3b" opacity="0.65"/>
     </pattern>
   </defs>
 
-  <!-- FULL 1200 × 360 CANVAS -->
-  <rect width="1200" height="360" fill="#0B1017"/>
-
-  <!-- FULL WIDTH PANEL -->
+  <!-- FULL 1200 × 360 PANEL -->
   <rect
-    x="1"
-    y="18"
-    width="1198"
-    height="324"
+    x="0"
+    y="0"
+    width="1200"
+    height="360"
     rx="24"
     fill="#101214"
     stroke="#66635d"
@@ -30,10 +42,10 @@
   />
 
   <rect
-    x="1"
-    y="18"
-    width="1198"
-    height="324"
+    x="0"
+    y="0"
+    width="1200"
+    height="360"
     rx="24"
     fill="url(#gridDark)"
     opacity="0.6"
@@ -41,8 +53,8 @@
 
   <!-- HEADER -->
   <text
-    x="48"
-    y="66"
+    x="46"
+    y="55"
     fill="#ff5a1f"
     font-family="Courier New, monospace"
     font-size="15"
@@ -53,8 +65,8 @@
   </text>
 
   <text
-    x="48"
-    y="112"
+    x="46"
+    y="101"
     fill="#f5f0e6"
     font-family="Arial Black, Segoe UI, sans-serif"
     font-size="40"
@@ -64,8 +76,8 @@
   </text>
 
   <text
-    x="48"
-    y="142"
+    x="46"
+    y="131"
     fill="#8f8a80"
     font-family="Courier New, monospace"
     font-size="13"
@@ -76,26 +88,26 @@
 
   <!-- DIVIDER -->
   <line
-    x1="48"
-    y1="166"
-    x2="1152"
-    y2="166"
+    x1="46"
+    y1="155"
+    x2="1154"
+    y2="155"
     stroke="#494949"
     stroke-width="1"
   />
 
-  <!-- LEFT CARD -->
+  <!-- LEFT BLOCK -->
   <rect
-    x="48"
-    y="190"
-    width="545"
+    x="46"
+    y="179"
+    width="548"
     height="112"
     fill="#f5f0e6"
   />
 
   <text
-    x="70"
-    y="220"
+    x="68"
+    y="209"
     fill="#111111"
     font-family="Courier New, monospace"
     font-size="12"
@@ -105,8 +117,8 @@
   </text>
 
   <text
-    x="70"
-    y="255"
+    x="68"
+    y="244"
     fill="#111111"
     font-family="Arial Black, Segoe UI, sans-serif"
     font-size="27"
@@ -116,8 +128,8 @@
   </text>
 
   <text
-    x="70"
-    y="282"
+    x="68"
+    y="271"
     fill="#4e4a44"
     font-family="Segoe UI, Arial, sans-serif"
     font-size="14"
@@ -125,18 +137,18 @@
     Small experiments, working systems and public iteration.
   </text>
 
-  <!-- ORANGE ACTIVITY CARD -->
+  <!-- ORANGE ACTIVITY MODULE -->
   <rect
-    x="613"
-    y="190"
-    width="250"
+    x="614"
+    y="179"
+    width="252"
     height="112"
     fill="url(#stripeOrange)"
   />
 
   <text
-    x="633"
-    y="220"
+    x="634"
+    y="209"
     fill="#111111"
     font-family="Courier New, monospace"
     font-size="11"
@@ -145,12 +157,12 @@
     ACTIVITY / LIVE
   </text>
 
-  <g transform="translate(633,238)">
-    <rect x="0" y="30" width="12" height="18" fill="#111111"/>
-    <rect x="20" y="22" width="12" height="26" fill="#111111"/>
-    <rect x="40" y="34" width="12" height="14" fill="#111111"/>
-    <rect x="60" y="15" width="12" height="33" fill="#111111"/>
-    <rect x="80" y="6" width="12" height="42" fill="#111111"/>
+  <g transform="translate(634,227)">
+    <rect x="0"   y="30" width="12" height="18" fill="#111111"/>
+    <rect x="20"  y="22" width="12" height="26" fill="#111111"/>
+    <rect x="40"  y="34" width="12" height="14" fill="#111111"/>
+    <rect x="60"  y="15" width="12" height="33" fill="#111111"/>
+    <rect x="80"  y="6" width="12" height="42" fill="#111111"/>
     <rect x="100" y="25" width="12" height="23" fill="#111111"/>
     <rect x="120" y="12" width="12" height="36" fill="#111111"/>
     <rect x="140" y="2" width="12" height="46" fill="#111111"/>
@@ -158,26 +170,26 @@
     <rect x="180" y="8" width="12" height="40" fill="#111111"/>
   </g>
 
-  <!-- BLUE STATUS CARD -->
+  <!-- BLUE STATUS MODULE -->
   <rect
-    x="883"
-    y="190"
-    width="269"
+    x="886"
+    y="179"
+    width="268"
     height="112"
     fill="#315cff"
   />
 
   <rect
-    x="883"
-    y="190"
-    width="269"
+    x="886"
+    y="179"
+    width="268"
     height="112"
     fill="url(#gridBlue)"
   />
 
   <text
-    x="905"
-    y="220"
+    x="908"
+    y="209"
     fill="#f5f0e6"
     font-family="Courier New, monospace"
     font-size="11"
@@ -186,10 +198,16 @@
     CURRENT STATE
   </text>
 
-  <circle cx="1120" cy="219" r="11" fill="#c7ff1a"/>
   <circle
-    cx="1120"
-    cy="219"
+    cx="1122"
+    cy="208"
+    r="11"
+    fill="#c7ff1a"
+  />
+
+  <circle
+    cx="1122"
+    cy="208"
     r="18"
     fill="none"
     stroke="#c7ff1a"
@@ -198,8 +216,8 @@
   />
 
   <text
-    x="905"
-    y="256"
+    x="908"
+    y="245"
     fill="#f5f0e6"
     font-family="Arial Black, Segoe UI, sans-serif"
     font-size="21"
@@ -209,8 +227,8 @@
   </text>
 
   <text
-    x="905"
-    y="282"
+    x="908"
+    y="271"
     fill="#d9dfff"
     font-family="Courier New, monospace"
     font-size="12"
@@ -220,15 +238,21 @@
 
   <!-- FOOTER -->
   <line
-    x1="48"
-    y1="322"
-    x2="1152"
-    y2="322"
+    x1="46"
+    y1="311"
+    x2="1154"
+    y2="311"
     stroke="#494949"
     stroke-width="1"
   />
 
-  <rect x="48" y="319" width="190" height="6" fill="#ff5a1f">
+  <rect
+    x="46"
+    y="308"
+    width="190"
+    height="6"
+    fill="#ff5a1f"
+  >
     <animate
       attributeName="width"
       values="80;190;120;190"
@@ -237,7 +261,20 @@
     />
   </rect>
 
-  <rect x="238" y="319" width="150" height="6" fill="#315cff"/>
-  <rect x="388" y="319" width="60" height="6" fill="#c7ff1a"/>
+  <rect
+    x="236"
+    y="308"
+    width="150"
+    height="6"
+    fill="#315cff"
+  />
+
+  <rect
+    x="386"
+    y="308"
+    width="60"
+    height="6"
+    fill="#c7ff1a"
+  />
 
 </svg>
