@@ -1,12 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
-
   <defs>
     <pattern id="gridDark" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0 L0 0 0 22" fill="none" stroke="#1e2228" stroke-width="1"/>
+      <path d="M22 0L0 0 0 22" fill="none" stroke="#1e2228" stroke-width="1"/>
     </pattern>
 
     <pattern id="gridBlue" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M20 0 L0 0 0 20" fill="none" stroke="#6c7cff" stroke-width="0.7" opacity="0.35"/>
+      <path d="M20 0L0 0 0 20" fill="none" stroke="#6c7cff" stroke-width="0.7" opacity="0.35"/>
     </pattern>
 
     <pattern id="stripeOrange" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
@@ -15,10 +14,10 @@
     </pattern>
   </defs>
 
-  <!-- background -->
+  <!-- FULL 1200 × 360 CANVAS -->
   <rect width="1200" height="360" fill="#0B1017"/>
 
-  <!-- full-width outer panel -->
+  <!-- FULL WIDTH PANEL -->
   <rect
     x="1"
     y="18"
@@ -40,7 +39,7 @@
     opacity="0.6"
   />
 
-  <!-- header -->
+  <!-- HEADER -->
   <text
     x="48"
     y="66"
@@ -75,7 +74,7 @@
     PUBLIC REPOSITORY NOTES / 2026
   </text>
 
-  <!-- divider -->
+  <!-- DIVIDER -->
   <line
     x1="48"
     y1="166"
@@ -85,11 +84,11 @@
     stroke-width="1"
   />
 
-  <!-- left block -->
+  <!-- LEFT CARD -->
   <rect
     x="48"
     y="190"
-    width="540"
+    width="545"
     height="112"
     fill="#f5f0e6"
   />
@@ -126,9 +125,9 @@
     Small experiments, working systems and public iteration.
   </text>
 
-  <!-- center orange module -->
+  <!-- ORANGE ACTIVITY CARD -->
   <rect
-    x="612"
+    x="613"
     y="190"
     width="250"
     height="112"
@@ -136,7 +135,7 @@
   />
 
   <text
-    x="632"
+    x="633"
     y="220"
     fill="#111111"
     font-family="Courier New, monospace"
@@ -146,8 +145,7 @@
     ACTIVITY / LIVE
   </text>
 
-  <!-- activity bars -->
-  <g transform="translate(632,238)">
+  <g transform="translate(633,238)">
     <rect x="0" y="30" width="12" height="18" fill="#111111"/>
     <rect x="20" y="22" width="12" height="26" fill="#111111"/>
     <rect x="40" y="34" width="12" height="14" fill="#111111"/>
@@ -160,25 +158,25 @@
     <rect x="180" y="8" width="12" height="40" fill="#111111"/>
   </g>
 
-  <!-- right blue module -->
+  <!-- BLUE STATUS CARD -->
   <rect
-    x="886"
+    x="883"
     y="190"
-    width="266"
+    width="269"
     height="112"
     fill="#315cff"
   />
 
   <rect
-    x="886"
+    x="883"
     y="190"
-    width="266"
+    width="269"
     height="112"
     fill="url(#gridBlue)"
   />
 
   <text
-    x="908"
+    x="905"
     y="220"
     fill="#f5f0e6"
     font-family="Courier New, monospace"
@@ -188,13 +186,7 @@
     CURRENT STATE
   </text>
 
-  <circle
-    cx="1120"
-    cy="219"
-    r="11"
-    fill="#c7ff1a"
-  />
-
+  <circle cx="1120" cy="219" r="11" fill="#c7ff1a"/>
   <circle
     cx="1120"
     cy="219"
@@ -206,7 +198,7 @@
   />
 
   <text
-    x="908"
+    x="905"
     y="256"
     fill="#f5f0e6"
     font-family="Arial Black, Segoe UI, sans-serif"
@@ -217,7 +209,7 @@
   </text>
 
   <text
-    x="908"
+    x="905"
     y="282"
     fill="#d9dfff"
     font-family="Courier New, monospace"
@@ -226,7 +218,7 @@
     commits / experiments / releases
   </text>
 
-  <!-- footer rail -->
+  <!-- FOOTER -->
   <line
     x1="48"
     y1="322"
@@ -236,13 +228,7 @@
     stroke-width="1"
   />
 
-  <rect
-    x="48"
-    y="319"
-    width="190"
-    height="6"
-    fill="#ff5a1f"
-  >
+  <rect x="48" y="319" width="190" height="6" fill="#ff5a1f">
     <animate
       attributeName="width"
       values="80;190;120;190"
@@ -251,20 +237,7 @@
     />
   </rect>
 
-  <rect
-    x="238"
-    y="319"
-    width="150"
-    height="6"
-    fill="#315cff"
-  />
-
-  <rect
-    x="388"
-    y="319"
-    width="60"
-    height="6"
-    fill="#c7ff1a"
-  />
+  <rect x="238" y="319" width="150" height="6" fill="#315cff"/>
+  <rect x="388" y="319" width="60" height="6" fill="#c7ff1a"/>
 
 </svg>
